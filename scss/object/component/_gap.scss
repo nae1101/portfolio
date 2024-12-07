@@ -1,0 +1,22 @@
+@use "../../foundation/mixin" as *;
+
+.c-gap {
+    &__10 {
+        gap: 10px;
+    }
+    &__16 {
+        gap: 16px;
+    }
+    &__30 {
+        gap: 30px;
+    }
+    &__40 {
+        gap: 40px;
+    }
+    &__60 {
+        gap: 60px;
+    }
+    &__-30 {
+        gap: -30px;
+    }
+} 

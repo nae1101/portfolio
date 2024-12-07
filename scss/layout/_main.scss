@@ -1,0 +1,21 @@
+@use "../foundation/mixin" as *;
+
+.l-main {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    position: relative;
+    z-index: -100;
+
+    &__bg-green {
+        // background-color: #f7fff7;
+        padding: 30px 18%;
+        background-color: rgba(247,255,247,0.7);    }
+
+    &__contentsArea {
+        padding: 0 15%;
+    }
+    &__textArea {
+        padding: 0 15%;
+    }
+}

@@ -1,0 +1,12 @@
+@use "../../foundation/mixin" as *;
+
+.c-grid {
+    display: grid;
+    
+    &__category {
+        display: grid;
+        grid-template-columns: 160px 160px;
+        grid-template-rows: 130px 130px;
+        gap: 30px;
+        }
+    }

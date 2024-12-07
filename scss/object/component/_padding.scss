@@ -1,0 +1,8 @@
+@use "../../foundation/mixin" as *;
+
+.c-padding {
+    &__articleBox {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
