@@ -2,30 +2,33 @@
 
 .c-margin {
     &__8 {
-        margin: 8px 0;
+        margin: 0 0 8px 0;
     }
     &__16 {
-        margin: 16px 0;
+        margin: 0 0 16px 0;
     }
     &__24 {
-        margin: 24px 0;
+        margin: 0 0 24px 0;
     }    
     &__32 {
-        margin: 32px 0;
+        margin: 0 0 32px 0;
     }    
     &__40 {
-        margin: 40px 0;
+        margin: 0 0 40px 0;
     }    
     &__48 {
-        margin: 48px 0;
+        margin: 0 0 48px 0;
     }
     &__56 {
-        margin: 56px 0;
+        margin: 0 0 56px 0;
+    }
+    &__64 {
+        margin: 0 0 64px 0;
     }
     &__80 {
-        margin: 80px 0;
+        margin: 0 0 80px 0;
     }
     &__120 {
-        margin: 120px 0;
+        margin: 0 0 120px 0;
     }
 }
