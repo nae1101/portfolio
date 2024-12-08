@@ -1,0 +1,53 @@
+@use "../../foundation/mixin" as *;
+
+.c-circle {
+    &__lightgreen {
+        width: 117px;
+        height: 117px;
+        border-radius: 50%;
+        background-color: #E8F2F1;
+    }
+
+
+    &__green {
+        display: inline-block;
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        background-color: #7DCDC6;
+        text-align:center;
+        line-height: 64px;
+    }
+
+    &__miru {
+        display: inline-block;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        background-color: #7DCDC6;
+        text-align:center;
+        line-height: 140px;
+
+        >p {
+            line-height: 120%;
+        }
+    }
+    &__scroll {
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        background: #7DCDC6;
+        position: relative;
+    }
+    &__scroll::after {
+        content: "";
+        border-radius: 50%;
+        width: 13px;
+        height: 13px;
+        background: #7DCDC6;
+        position: absolute;
+        bottom: -20px;
+        left: 3px;
+        right: 0;
+    }
+}

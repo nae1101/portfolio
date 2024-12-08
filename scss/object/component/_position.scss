@@ -1,0 +1,27 @@
+@use "../../foundation/mixin" as *;
+
+.c-positionR {
+    position: relative;
+}
+
+.c-positionA {
+    position: absolute;
+}
+
+.c-positon__new-circle {
+    top: 26px;
+    left: 26px;
+}
+
+.c-position__new-img {
+    position: relative;
+    top: 58px;
+    left: 58px;
+}
+
+.c-position__articleBox {
+    top: 40px;
+    left: 200px;
+}
+
+
