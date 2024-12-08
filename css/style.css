@@ -276,50 +276,6 @@ ol, ul, li {
   padding: 0 15%;
 }
 
-.c-block {
-  display: block;
-}
-
-.c-box {
-  width: 100%;
-  height: 100%;
-}
-.c-box__new {
-  width: 700px;
-  height: auto;
-  border-radius: 20px;
-  background-color: #E8F2F1;
-}
-.c-box__new__textBox {
-  padding: 16%;
-}
-.c-box__new__tagBox {
-  background-color: white;
-  padding: 0 10px;
-  border-radius: 2px;
-}
-.c-box__YellowTextBox {
-  width: 35%;
-  height: auto;
-  background-color: #FDFFED;
-  padding: 2%;
-}
-
-.c-button__menu {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-@media screen and (min-width: 500px) {
-  .c-button__menu {
-    display: none;
-  }
-}
-.c-button__ball {
-  width: 50px;
-  height: 50px;
-}
-
 .c-center__text {
   text-align: center;
 }
@@ -388,15 +344,6 @@ ol, ul, li {
   right: 0;
 }
 
-.c-flex {
-  display: flex;
-}
-.c-flex__center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .c-fontsize__32 {
   font-size: 32px;
   font-size: 2rem;
@@ -426,33 +373,35 @@ ol, ul, li {
   font-size: 0.875rem;
 }
 
-.c-gap__10 {
-  gap: 10px;
+.c-gap__8 {
+  gap: 8px;
 }
 .c-gap__16 {
   gap: 16px;
 }
-.c-gap__30 {
-  gap: 30px;
+.c-gap__24 {
+  gap: 24px;
+}
+.c-gap__32 {
+  gap: 32px;
 }
 .c-gap__40 {
   gap: 40px;
 }
-.c-gap__60 {
-  gap: 60px;
+.c-gap__48 {
+  gap: 48px;
 }
-.c-gap__-30 {
-  gap: -30px;
+.c-gap__56 {
+  gap: 56px;
 }
-
-.c-grid {
-  display: grid;
+.c-gap__64 {
+  gap: 64px;
 }
-.c-grid__category {
-  display: grid;
-  grid-template-columns: 160px 160px;
-  grid-template-rows: 130px 130px;
-  gap: 30px;
+.c-gap__80 {
+  gap: 80px;
+}
+.c-gap__120 {
+  gap: 120px;
 }
 
 .c-img {
@@ -506,32 +455,32 @@ ol, ul, li {
   left: 150px;
 }
 
-.c-margin__text {
+.c-margin__8 {
+  margin: 8px 0;
+}
+.c-margin__16 {
   margin: 16px 0;
 }
-
-.c-margin__center {
-  margin: 0 auto;
-}
-
-.c-margin__30 {
-  margin: 30px 0;
-}
-
-.c-margin__60 {
-  margin: 60px 0 30px 0;
-}
-
-.c-margin__10 {
-  margin: 10px;
-}
-
 .c-margin__24 {
   margin: 24px 0;
 }
-
-.c-margin__new {
-  margin-bottom: 300px;
+.c-margin__32 {
+  margin: 32px 0;
+}
+.c-margin__40 {
+  margin: 40px 0;
+}
+.c-margin__48 {
+  margin: 48px 0;
+}
+.c-margin__56 {
+  margin: 56px 0;
+}
+.c-margin__80 {
+  margin: 80px 0;
+}
+.c-margin__120 {
+  margin: 120px 0;
 }
 
 .c-padding__articleBox {
@@ -686,6 +635,10 @@ ol, ul, li {
   .p-top__background05 {
     top: 480px;
   }
+}
+.p-top__comment {
+  font-size: 32px;
+  font-size: 2rem;
 }
 
 .u-color__green {

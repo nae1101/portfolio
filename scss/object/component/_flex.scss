@@ -1,11 +1,2 @@
 @use "../../foundation/mixin" as *;
 
-.c-flex {
-    display: flex;
-
-    &__center {
-        display: flex;
-        justify-content: center;
-        align-items: center
-    }
-}
