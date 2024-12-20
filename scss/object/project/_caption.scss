@@ -1,0 +1,10 @@
+@use "../../foundation/mixin" as *;
+
+.p-caption {
+    border-bottom: solid 2px $green;
+    display: inline-block;
+    
+    &::first-letter {
+        color: $green;
+    }
+}

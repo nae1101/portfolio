@@ -1,21 +1,22 @@
 @use "../../foundation/mixin" as *;
 
 .p-link {
-    align-items: flex-end;
-    margin: 0 0 0 auto;
-    // width: 250px;
-    gap: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 
-    &__text {
-        display: table-cell;
-        vertical-align: middle;
-        border-bottom: solid 3px #97dfb1;
+    > span {
+        @include rem(16);
+        letter-spacing: 0.1em;
+        font-family: 'Noto Serif JP', serif;
+        font-weight: 300;
+        color: $black;
     }
 }
 
 .p-tag {
     > a {
-        border-bottom: 1px solid #7DCDC6;
+        border-bottom: 1px solid $green;
         display: inline-block;
     }
 }

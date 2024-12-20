@@ -1,4 +1,7 @@
 @use "../../foundation/mixin" as *;
 
+.c-line__green {
+    border-bottom: 1px solid $green;
+}
 
 

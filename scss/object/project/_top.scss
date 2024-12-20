@@ -2,7 +2,13 @@
 
 .p-top {
     &__title {
-        margin: 20% 0 10% 0;
+        > h1,h2 {
+            line-height: 100%;
+        }
+    }
+
+    &__logo {
+        @extend .p-top__title
     }
 
     &__title-margin {

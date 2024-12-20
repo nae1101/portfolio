@@ -5,16 +5,16 @@
     height: auto;
 
     &__thumbnail {
-        width: 320px;
-        height: 200px;
-        border-radius: 10px;
-        object-fit: cover;
-        background-image: url(/img/img-tanida.png);
+        width: 384px;
+        height: 240px;
+        border-radius: 16px;
+        background-size: cover;
+        background-image: url(/img/img_prompt01.jpg);
 
         &-s {
             width: 160px;
             height: 100px;
-            border-radius: 10px;
+            border-radius: 16px;
             object-fit: cover;
             background-image: url(/img/img-tanida.png);
         }
@@ -48,13 +48,29 @@
         background-size: contain;
     }
 
-    &__darken {
-        mix-blend-mode: darken;
+    &__greenBall {
+        width: 120px;
+        height: 120px;
+        background-image: url(/img/greenBall.png);
+        background-size: contain;
     }
 
-    &__blue2D {
-        left: 150px;
+    &__yellowBall {
+        @extend .c-img__greenBall;
+        background-image: url(/img/yellowBall.png);
     }
+
+    &__pinkBall {
+        @extend .c-img__greenBall;
+        background-image: url(/img/pinkBall.png);
+    }
+
+    &__blueBall {
+        @extend .c-img__greenBall;
+        background-image: url(/img/blueBall.png);
+    }
+
+
 }
 
 

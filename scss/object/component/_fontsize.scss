@@ -3,24 +3,32 @@
 .c-fontsize {
     &__32 {
         @include rem(32);
+        letter-spacing: 0.1em;
+
     };
     &__30 {
         @include rem(30);
+        letter-spacing: 0.1em;
     };
     &__24 {
         @include rem(24);
+        letter-spacing: 0.1em;
     };
     &__20 {
         @include rem(24);
+        letter-spacing: 0.1em;
     };
     &__18 {
         @include rem(18);
+        letter-spacing: 0.1em;
     };
     &__16 {
         @include rem(16);
+        letter-spacing: 0.1em;
     };
     &__14 {
         @include rem(14);
+        letter-spacing: 0.1em;
     };
     // &__16 {
     //     @include rem(12);

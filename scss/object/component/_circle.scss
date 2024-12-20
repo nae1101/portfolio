@@ -1,42 +1,16 @@
 @use "../../foundation/mixin" as *;
 
 .c-circle {
-    &__lightgreen {
-        width: 117px;
-        height: 117px;
-        border-radius: 50%;
-        background-color: #E8F2F1;
-    }
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: $green;
 
-
-    &__green {
-        display: inline-block;
-        width: 64px;
-        height: 64px;
-        border-radius: 50%;
-        background-color: #7DCDC6;
-        text-align:center;
-        line-height: 64px;
-    }
-
-    &__miru {
-        display: inline-block;
-        width: 140px;
-        height: 140px;
-        border-radius: 50%;
-        background-color: #7DCDC6;
-        text-align:center;
-        line-height: 140px;
-
-        >p {
-            line-height: 120%;
-        }
-    }
     &__scroll {
         border-radius: 50%;
         width: 20px;
         height: 20px;
-        background: #7DCDC6;
+        background: $green;
         position: relative;
     }
     &__scroll::after {
@@ -44,10 +18,26 @@
         border-radius: 50%;
         width: 13px;
         height: 13px;
-        background: #7DCDC6;
+        background: $green;
         position: absolute;
         bottom: -20px;
         left: 3px;
         right: 0;
+    }
+
+    &-10 {
+        @extend .c-circle;
+        width: 10px;
+        height: 10px;
+    }
+    &-8 {
+        @extend .c-circle;
+        width: 8px;
+        height: 8px;
+    }
+    &-6 {
+        @extend .c-circle;
+        width: 6px;
+        height: 6px;
     }
 }

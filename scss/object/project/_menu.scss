@@ -2,6 +2,67 @@
 
 .p-menu {
     padding: 32px;
-    background-color: white;
+    background-color: $white;
     opacity: 50%;
+
+    &__green {
+        position: relative;
+        display: inline-block;
+    }
+
+    &__green:hover {
+        color: $green;
+    }
+    &__green::before {
+        content: ""; /* 初期状態では何も表示しない */
+        position: absolute;
+        left: -40px; /* テキストの左に表示する位置 */
+        top: 50%;
+        transform: translateY(-50%); /* 縦位置を中央に調整 */
+        width: 0;
+        height: 0;
+        border-radius: 50%; /* 丸い形を作る */
+        background-color: transparent; /* 初期状態で見えなくする */
+    }
+    &__green:hover::before {
+        width: 20px; /* 円の大きさ */
+        height: 20px; /* 円の大きさ */
+        background-color: $green; /* 円の色 */
+      }
+
+    &__yellow {
+        @extend .p-menu__green
+    }
+    &__yellow:hover {
+        color: $yellow;
+    }
+    &__yellow:hover::before {
+        width: 20px;
+        height: 20px;
+        background-color: $yellow;
+    }
+
+    &__pink {
+        @extend .p-menu__green
+    }
+    &__pink:hover {
+        color: $pink;
+    }
+    &__pink:hover::before {
+        width: 20px;
+        height: 20px;
+        background-color: $pink;
+    }
+
+    &__blue {
+        @extend .p-menu__green
+    }
+    &__blue:hover {
+        color: $blue;
+    }
+    &__blue:hover::before {
+        width: 20px;
+        height: 20px;
+        background-color: $blue;
+    }
 }

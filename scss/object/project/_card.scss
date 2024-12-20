@@ -1,0 +1,7 @@
+@use "../../foundation/mixin" as *;
+
+.p-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 48px;
+}

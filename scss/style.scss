@@ -10,15 +10,19 @@
 @use "layout/_main";
 
 //component
-@use "object/component/_block";
+@use "object/component/_align";
 @use "object/component/_box";
 @use "object/component/_button";
+@use "object/component/_category";
 @use "object/component/_center";
 @use "object/component/_circle";
+@use "object/component/_clearfix";
+@use "object/component/_color";
 @use "object/component/_flex";
+@use "object/component/_font";
 @use "object/component/_fontsize";
+@use "object/component/_fontweight";
 @use "object/component/_gap";
-@use "object/component/_grid";
 @use "object/component/_img";
 @use "object/component/_line";
 @use "object/component/_margin";
@@ -28,10 +32,10 @@
 
 //project
 @use "object/project/_article";
+@use "object/project/_caption";
+@use "object/project/_card";
 @use "object/project/_link";
 @use "object/project/_menu";
 @use "object/project/_top";
 
 //utility
-@use "object/utility/_color";
-@use "object/utility/_font";

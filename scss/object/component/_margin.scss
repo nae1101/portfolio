@@ -1,34 +1,40 @@
 @use "../../foundation/mixin" as *;
 
 .c-margin {
+    &__4 {
+        margin-bottom: 4px;
+    }    
     &__8 {
-        margin: 0 0 8px 0;
+        margin-bottom: 8px;
     }
     &__16 {
-        margin: 0 0 16px 0;
+        margin-bottom: 16px;
     }
     &__24 {
-        margin: 0 0 24px 0;
+        margin-bottom: 24px;
     }    
     &__32 {
-        margin: 0 0 32px 0;
+        margin-bottom: 32px;
     }    
     &__40 {
-        margin: 0 0 40px 0;
+        margin-bottom: 40px;
     }    
     &__48 {
-        margin: 0 0 48px 0;
+        margin-bottom: 48px;
     }
     &__56 {
-        margin: 0 0 56px 0;
+        margin-bottom: 56px;
     }
     &__64 {
-        margin: 0 0 64px 0;
+        margin-bottom: 64px;
     }
     &__80 {
-        margin: 0 0 80px 0;
+        margin-bottom: 80px;
     }
     &__120 {
-        margin: 0 0 120px 0;
+        margin-bottom: 120px;
+    }
+    &__432 {
+        margin-bottom: 432px;
     }
 }

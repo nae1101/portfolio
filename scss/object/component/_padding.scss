@@ -1,8 +1,7 @@
 @use "../../foundation/mixin" as *;
 
 .c-padding {
-    &__articleBox {
-        display: flex;
-        justify-content: flex-end;
+    &__bottom8 {
+        padding: 0 0 8px 0;
     }
 }

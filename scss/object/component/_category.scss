@@ -1,0 +1,8 @@
+@use "../../foundation/mixin" as *;
+
+.c-category {
+    background-color: $lightgreen;
+    padding: 0 10px;
+    color: $black;
+    border-radius: 2px;
+}

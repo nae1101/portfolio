@@ -1,7 +1,22 @@
 @use "../foundation/mixin" as *;
 
 .l-footer {
-    width: 100%;
-    height: auto;
-    background-image: url(../img/blue-back.png);
+    position: relative;
+
+    // &__content {
+    //     position: absolute;
+    //     z-index: 1;
+    // }
+
+    &__back {
+        position: absolute;
+        z-index: -1;
+        width: 970px;
+        height: 485px;
+        background: #E8F2F1;
+        border-top-left-radius: 485px;
+        border-top-right-radius: 485px;
+        filter: blur(30px);
+    }
+
 }

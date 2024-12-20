@@ -1,0 +1,9 @@
+@use "../../foundation/mixin" as *;
+
+.u-clearfix {
+    &::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}

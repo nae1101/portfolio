@@ -7,17 +7,21 @@
 
 //ブロック要素を中央寄せにする（子要素に設定）
 .c-center__block {
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
 }
 
-//行中のテキストや画像などの内容の上下方向の揃え位置をセンターにする
-.c-center__middle {
+//ブロック要素を中央寄せにする（親要素にtext-ailgn:center入れる）
+.c-center__inlineBlock {
+    display: inline-block;
+}
+
+//行中のテキストや画像などの内容の上下方向の揃え位置をセンターにする（子要素に設定）
+.c-center__lineMiddle {
     vertical-align: middle;
 }
 
 //上下を真ん中にする
-.c-center__alignCenter{
+.c-center__updownCenter{
     align-items: center;
 }
 

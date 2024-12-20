@@ -1,0 +1,43 @@
+@use "../../foundation/mixin" as *;
+
+.c-align {
+    //横に並べる
+    &__flex {
+        display: flex;
+    }
+
+    &__inlineBlock {
+        display: inline-block;
+    }
+
+    //子要素を縦方向に並べる
+    &__column {
+        flex-direction: column;
+    }
+    
+    //中央揃え（水平方向）
+    &__Ycenter {
+        align-items: center;
+    }
+
+    //中央揃え（垂直方向）
+    &__Xcenter {
+        justify-content: center;
+    }
+
+    //テキストの中央揃え
+    &__textCenter {
+        text-align: center;
+    }
+
+    //両端にする
+    &__spaceBetween {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    //上揃えにする
+    &__flexStart {
+        align-items: flex-start;
+    }
+}
